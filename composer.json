@@ -1,0 +1,24 @@
+{
+    "name": "nuad/auther",
+    "description": "",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "iNuad",
+            "email": "nuadnoi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Nuad\\Auther": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
